@@ -1,0 +1,28 @@
+Site purpose: Online Resume 
+Site URL: brendangalman.com
+Site Type: Personal
+Site Description: This is a personal website that serves as an online resume for Brendan Galman. It includes information about his education, work experience, skills, and projects. The site is designed to showcase his qualifications and experience to potential employers or clients.
+
+Site Pages:
+1. Home: Introduction to Brendan Galman and his background
+2. Education: Details about his education and academic qualifications
+3. Work Experience: Information about his work history and professional experience
+4. Skills: Overview of his skills and areas of expertise
+5. Projects: Portfolio of his past projects and work samples
+6. Contact: Contact information for Brendan Galman and a contact form for inquiries or job opportunities
+
+Potential Future Updates:
+Create app to integrate notification System
+Site purpose: Notification System
+Site URL: notifications.brendangalman.com
+Site Type: Web Application
+Site Description: This web application serves as a notification system for Brendan Galman. It allows him to receive notifications about new job opportunities, project updates, or other important information. The app is designed to keep him informed and organized in his professional life.
+
+External API Integration:
+Spline API: Integrate Spline API to create interactive data visualizations for Brendan Galman's projects and work samples. This will enhance the user experience and showcase his work in a visually appealing way.
+
+TODO: 
+Have the Projects Section Take Github API Data and Populate the Projects Title, text and images.
+Create a Contact Form that sends an email to Brendan Galman's email address. ( NOT IMPLEMENTED YET )
+Create a Notification System that sends notifications to Brendan Galman's email address. ( NOT IMPLEMENTED YET )
+Create more fluid site experience with animations and transitions. ( NOT IMPLEMENTED YET )

@@ -1,0 +1,116 @@
+/*Style the layout*/
+
+:root {
+    --primary-color: RGB(248, 237, 227);
+    --secondary-color: RGB(223, 211, 195);
+    --tertiary-color: RGB(208, 184, 168);
+    --accent-color: #823628;
+    --border-color: #ccc;
+    --link-color: #333;
+    --link-color-hover: #555;
+    --logo-color: #282AA4;
+    --github-color: #24292E;
+    --linkedin-color: #0077B5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ccc;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+}
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #752719;
+    }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#pageHeader{
+    z-index: 1000;
+    width: 100%;
+    background-color: #00000000;
+}
+    #pageHeader > div{
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+#logo {
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Nova mono';
+    letter-spacing: -1px;
+    word-spacing: -0.5rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+    #logo > span{
+        color: var(--accent-color);
+        margin-left: 0.5rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+#headerNav {
+    display: flex;
+}
+    #headerNav > ul {
+        display: flex;
+        align-content: center;
+        list-style: none;
+    }
+        #headerNav > ul > li {
+            display: flex;
+        }
+        #headerNav > ul > li > a {
+            align-content: center;
+            margin-top: 1rem;
+            color: var(--link-color);
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-left: 2rem;
+            font-size: 1.8rem;
+        }
+            #headerNav > ul > li > a::after{
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: var(--accent-color);
+                transition: width .3s;
+            }
+            #headerNav > ul > li > a:hover::after{
+                width: 100%;
+            }
+
+.header-items {
+    justify-content: space-between
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+#footer {
+    margin-bottom: auto;
+    width: 100%;
+    background-color: var(--accent-color);
+    box-shadow: #808080 0px 2px 20px;
+    height: 15vh;
+}
+    #footer > div{
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+
