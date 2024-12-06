@@ -185,11 +185,11 @@
     margin-right: auto;
     padding-right: 1rem;
     flex-direction: row;
-    border: solid black 3px;
+    border: solid black 1px;
     border-bottom: none;
 }
-    .project:nth-child(n+3) {
-        border-bottom: solid black 3px;
+    .project:nth-child(n+2) {
+        border-bottom: solid black 1px;
     }
 .projectSidebar {
     display: flex;
@@ -221,10 +221,11 @@
 }
 .projectImages {
     display: flex;
+    background-color: transparent;
     align-items: center;
     height: 100%;
     width: 200%;
-    margin-left:1rem;
+    margin-left: 1rem;
     overflow: auto;
 }
 .projectImages::-webkit-scrollbar {
@@ -232,8 +233,8 @@
 }
 
 .projectImage {
-    border: solid black 1px;
     object-fit: cover;
+    box-shadow: -3px 5px 10px #000c;
     height: 90%;
     width: 100vw;
 }
@@ -286,5 +287,6 @@
         .links > div > .LinkedIn {
             color: var(--linkedin-color);
         }
+
 
 
