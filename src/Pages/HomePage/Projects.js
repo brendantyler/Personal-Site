@@ -13,9 +13,9 @@ function Projects() {
                     </aside>
                     <div className="projectImagesScroll">
                         <div className="projectImages">
-                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Start.png`} alt="Project 1" />
-                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Active.png`} alt="Project 1" />
-                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_End.png`} alt="Project 1" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Start.png`} alt="Start Menu for a speed typing game" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Active.png`} alt="Gameplay of speed typing game that depicts a plane and text box" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_End.png`} alt="Game Over Menu for a speed typing game" />
                         </div>
                     </div>
                 </div>
@@ -26,9 +26,9 @@ function Projects() {
                     </aside>
                     <div className="projectImagesScroll">
                         <div className="projectImages">
-                            <img className="projectImage" src="https://via.placeholder.com/800" alt="Project 1" />
-                            <img className="projectImage" src="https://via.placeholder.com/800" alt="Project 1" />
-                            <img className="projectImage" src="https://via.placeholder.com/800" alt="Project 1" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Start.png`} alt="Start Menu for a speed typing game" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Active.png`} alt="Gameplay of speed typing game that depicts a plane and text box" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_End.png`} alt="Game Over Menu for a speed typing game" />
                         </div>
                     </div>
                 </div>
@@ -39,9 +39,9 @@ function Projects() {
                     </aside>
                     <div className="projectImagesScroll">
                         <div className="projectImages">
-                            <img className="projectImage" src="https://via.placeholder.com/800" alt="Project 1" />
-                            <img className="projectImage" src="https://via.placeholder.com/800" alt="Project 1" />
-                            <img className="projectImage" src="https://via.placeholder.com/800" alt="Project 1" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Start.png`} alt="Start Menu for a speed typing game" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_Active.png`} alt="Gameplay of speed typing game that depicts a plane and text box" />
+                            <img className="projectImage" src={`${process.env.PUBLIC_URL}/images/FlightTyper_End.png`} alt="Game Over Menu for a speed typing game" />
                         </div>
                     </div>
                 </div>
