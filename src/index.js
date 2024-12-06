@@ -12,7 +12,7 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout/>}>
-                    <Route index path="/" element={<HomePage />} />"
+                    <Route index path="/Personal-Site" element={<HomePage />} />"
                     <Route path="/about" element={<h1>About</h1>} />"
                     <Route path="/projects" element={<h1>Projects</h1>} />"
                     <Route path="/contact" element={<h1>Contact</h1>} />"
